@@ -1,5 +1,5 @@
 {
-  "name": "notefulApp-clientside",
+  "name": "noteful-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,12 +15,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "prebuild": "CI=true react-scripts test --colors",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "now --prod ./build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,8 +29,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.15.1",
-    "enzyme-to-json": "^3.4.3"
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "enzyme-to-json": "^3.3.5"
   }
 }
